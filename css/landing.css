@@ -1,0 +1,26 @@
+body{
+   padding-top:2px;
+}
+
+#jumbo {
+   background: linear-gradient(rgba(2, 50, 241, 0.8), rgba(92, 133, 88, 0.7)),url("../img/principal/background.jpg") no-repeat center;
+   padding: 141px;
+   background-size: cover;
+}
+
+.btn-primary {
+   background-color: #17406e;
+   border-color: #0056c6;
+}
+
+.team, footer {
+   background: #0056c6;
+ }
+
+ a .fab {
+   color: rgb(255, 255, 255);
+   font-size: 30px;
+   margin: 0 10px;
+ 
+ }
+ 

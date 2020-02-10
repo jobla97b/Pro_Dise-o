@@ -1,0 +1,44 @@
+.caja{
+ 
+    display: flex;
+    justify-content: space-between;
+   
+}
+div#body{
+    margin-top: 10px;
+    margin:auto;
+    width: 900px;
+    height: 300px;
+    border:1px;
+}
+
+
+div#left{
+
+    width: auto;
+    padding: 20px, 20px;
+    float: left;
+    margin: 5px;
+    border: 1px solid black;
+    
+}
+
+div#center{
+   
+    width: auto;
+    padding: 20px, 20px;
+    float: left;
+    margin: 5px;
+    border: 1px solid black;
+    
+}
+
+div#right{
+  
+    width: auto;
+    padding: 20px, 20px;
+    float: left;
+    margin: 5px;
+    border: 1px solid black;
+   
+}

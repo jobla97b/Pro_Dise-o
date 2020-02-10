@@ -1,0 +1,203 @@
+body {
+	font-size: 15px;
+  line-height: 1.52;
+  font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  overflow-x: hidden; 
+  /*background: rgb(32,178,170);*/
+  /*background-color: #fff;*/
+/*background: #bdc3c7;  
+background: -webkit-linear-gradient(to left, #2c3e50, #bdc3c7);  
+background: linear-gradient(to left, #2c3e50, #bdc3c7); */
+background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+/*sombreado barra menu*/
+.navbar {
+  box-shadow: 2px 2px 5px rgb(0, 0, 0);
+  opacity: 1;
+}
+
+/*Color de los enlaces*/
+.navbar .nav-item .nav-link {
+  color: rgb(255, 255, 255);
+}
+
+/*Imagenes de cada apartado*/
+.imgQS{
+    background-image: url(https://cdn.pixabay.com/photo/2015/07/28/21/01/create-865017_960_720.jpg);
+}
+
+.imgMision{
+  background-image: url(https://cdn.pixabay.com/photo/2018/02/20/10/28/business-3167295_960_720.jpg);
+}
+
+.imgVision{
+  background-image: url(https://cdn.pixabay.com/photo/2018/12/04/10/34/achievement-3855287_960_720.jpg);
+}
+
+.imgValores{
+  background-image: url(https://cdn.pixabay.com/photo/2018/05/17/09/05/achievement-3408115_960_720.jpg);
+}
+
+/*propiedades de los Sections*/
+.mision1 {
+  width: 100%;
+  height: 100vh;
+  margin-top: 20px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:space-around;
+  overflow:auto;
+}
+/*Porpiedades del div contenedor de los H1*/
+.mision2 {
+	margin-top: 10px;
+  background-color: rgba(0,0,0,0.4);
+  text-align: center;
+  padding: 10px;
+  width: 80%;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+/*Estamos trabajando*/
+ .redaccion{
+  background: #00b6ff;
+  border-radius: 10px;
+  width: 70%;
+  height: 350px;
+  margin-top: 20px;
+  clip-path: circle(4.1% at 50% 3%);
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+ }
+
+.iconoleer{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .iconoleer i{
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+ }
+
+ .fondo{
+   background: #00b6ff;
+  /*background:rgba(0,0,0,0.3);*/
+  border-radius: 12px;
+  margin: 15px;
+
+ }
+
+ .redaccion:hover{
+    background: rgba(0,0,0,0.2);
+    transition: 1s ease-in-out;
+ }
+
+ .redaccion:hover{
+  clip-path: circle(75%);
+ }
+
+ .fondo p{
+  text-align: justify;
+  color: #fff;
+  padding: 20px;
+ }
+
+/*H1 properties*/
+h1{
+  font-size: 32px;
+  font-weight: 500;
+}
+
+/*alineacion del contenedor informacion*/
+.texto-info{
+height: 200px;
+margin-top: 20px;
+  /*background-color: #0477BF;*/
+  /*background-color: #023E73;*/
+}
+/*properties de los parrafos*/
+.texto-info p{
+  text-align: justify;
+  color: #000;
+  padding: 50px;
+}
+
+/*Dimensiones del contenedor Cards*/
+.Cards{
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 20px;
+  overflow: hidden;
+  padding: 30px 60px 0;
+}
+/*estilo de los iconos CARDS*/
+.grupo{
+  display: block;
+  font-size: 42px;
+  color: #023E73;
+  text-align: left;
+}
+/*Alineacion del Encabezado CARDS*/
+.espacio{
+  margin-top: 5px;
+  text-align: left;
+  height: 5px;
+}
+
+/*Ajuste del contenido CARDS*/
+.cont{
+  margin-top: 20px;
+  text-align: justify;
+ /* border: 1px solid #000;*/
+  padding-top: 0px;
+}
+
+/*Margen superior del Footer*/
+.positionFooter{
+  margin-top: 20px;
+}
+
+.team, footer {
+    color: white;
+    background:rgb(205,92,92)
+    
+}
+
+@media screen and (max-width:600px) {
+  .mision1 {
+    height: auto;
+  }
+
+  .redaccion{
+    height: auto;
+  }
+
+  .iconoleer{
+    margin-top: 0px;
+  }
+  .iconoleer i{
+    font-size: 18px;
+  }
+  .Cards{
+    padding: 0px;
+    margin: auto;
+  }
+}
+

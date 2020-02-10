@@ -1,0 +1,53 @@
+.card{
+ 
+ background-color: #5a93bb;
+ columns: #000000;
+   
+}
+div#tamaño{
+    max-width: 540px;
+}
+div#body{
+    margin-top: 10px;
+    margin:auto;
+    width: 900px;
+    height: 300px;
+    border:1px;
+    float: left;
+}
+
+
+div#left{
+
+    width: auto;
+    padding: 20px, 20px;
+    float: left;
+    margin: 5px;
+    border: 1px;
+  
+    
+}
+
+div#center{
+   
+    width: auto;
+    padding: 20px, 20px;
+    float: right;
+    margin: 5px;
+    border: 1px;
+    width:286px; 
+    height:415px;
+    
+}
+
+div#right{
+  
+    width: auto;
+    padding: 20px, 20px;
+    float: left;
+    margin: 5px;
+    border: 1px solid black;
+    width:286px; 
+    height:415px;
+   
+}
